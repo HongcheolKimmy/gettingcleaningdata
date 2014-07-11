@@ -113,6 +113,11 @@ Here we have quasi 7 different categories in each column names as below (Get an 
 |---------------------|------|---------|---------------------------------------|
 | meanstd             | 10299| 75      | Replaced with Descrpitive Variable Names |
 
+
+
+![Data Structure](https://raw.githubusercontent.com/HongcheolKimmy/gettingcleaningdata/master/dataSetimage2.png)
+
+
 ### Part.5) Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 Use ddply(under "plyr" package) function to get a group wise average value, and change the column names by putting "Average" at the front to better describe the variables. After doing that extract tidy dataset to the file with ¡°write.table¡± function.
