@@ -47,6 +47,15 @@ There are three groups of files to deal with, quasi "metadata", "train data", an
 
   * **'activity_labels.txt'** - This file consists of activity labels (integer number from 1 to 6) with their corresponding activity names as shown below in the table. We are going to use this file to merge with our measured data set later on.
 
+|ActivityLabels|Activity			|
+|-----------|------------------------|
+|1		|WALKING			|
+|2		|WALKING_UPSTAIRS	|
+|3		|WALKING_DOWNSTAIRS    |
+|4		|SITTING			|
+|5		|STANDING			|
+|6		|LAYING			|
+
   * **'features.txt'** - The 561 features selected for this database come from the accelerometer and gyroscope 3-axial raw signals.(for detailed information, please see ¡®features_info¡¯ file contained in the same directory as ¡®features.txt¡¯ file), and this list of all features will be used as column names of measured data set. 
 
 
