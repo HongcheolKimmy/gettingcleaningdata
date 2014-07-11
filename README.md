@@ -39,7 +39,9 @@ I assigned this whole file path into a variable "fileDir" to avoid typing it ove
 ###Part.1 - Merge training and test sets to create one data set.
 There are three groups of files to deal with, quasi "metadata", "train data", and "test data", and I will go through one by one at this stage by splitting up Part.1 into three small parts.
 
-* **Part.1-1) Get the metadata : "activityLabels", "features"**
+* **Part.1-1) Get the metadata : "features", "activityLabels" **
+
+  * **'features.txt'** - The 561 features selected for this database come from the accelerometer and gyroscope 3-axial raw signals.(for detailed information, please see ¡®features_info¡¯ file contained in the same directory as ¡®features.txt¡¯ file), and this list of all features will be used as column names of measured data set. 
 
   * **'activity_labels.txt'** - This file consists of activity labels (integer number from 1 to 6) with their corresponding activity names as shown below in the table. We are going to use this file to merge with our measured data set later on.
 
@@ -52,7 +54,6 @@ There are three groups of files to deal with, quasi "metadata", "train data", an
 |5		|STANDING			|
 |6		|LAYING			|
 
-  * **'features.txt'** - The 561 features selected for this database come from the accelerometer and gyroscope 3-axial raw signals.(for detailed information, please see ¡®features_info¡¯ file contained in the same directory as ¡®features.txt¡¯ file), and this list of all features will be used as column names of measured data set. 
 
 
 * **Part.1-2) Get the 3 "train" data : "subjecttrain", "xtrain", "ytrain"**
