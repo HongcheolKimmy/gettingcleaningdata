@@ -32,12 +32,12 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ### ActivityLabels
 
-WALKING
-WALKING_UPSTAIRS
-WALKING_DOWNSTAIRS
-SITTING
-STANDING
-LAYING
+* WALKING
+* WALKING_UPSTAIRS
+* WALKING_DOWNSTAIRS
+* SITTING
+* STANDING
+* LAYING
 
 
 ### Subject
@@ -51,7 +51,7 @@ The original 561 features selected for this database come from the accelerometer
 * **Note** : Features are normalized and bounded within [-1,1]
 
 
-## Variables and values
+## Variables and values(75 variables)
 
 |   Variables   | Values    |
 |----------|---------|
