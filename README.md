@@ -1,7 +1,3 @@
-
-
-
-
 ### Getting and Cleaning Data Course Project
 
 
@@ -126,3 +122,8 @@ Use ddply(under "plyr" package) function to get a group wise average value, and 
 |Dataset              | rows | columns | Details                                  |
 |---------------------|------|---------|------------------------------------------|
 | groupAverage        | 180  | 75      | Group-wise average by activity and subject |
+
+
+![Data Structure](https://raw.githubusercontent.com/HongcheolKimmy/gettingcleaningdata/master/dataSetimage3.png)
+
+
