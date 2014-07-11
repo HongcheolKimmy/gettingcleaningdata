@@ -39,7 +39,7 @@ I assigned this whole file path into a variable "fileDir" to avoid typing it ove
 ###Part.1 - Merge training and test sets to create one data set.
 There are three groups of files to deal with, quasi "metadata", "train data", and "test data", and I will go through one by one at this stage by splitting up Part.1 into three small parts.
 
-* **Part.1-1) Get the metadata : "features", "activityLabels" **
+* **Part.1-1) Get the metadata : "features", "activityLabels"**
 
   * **'features.txt'** - The 561 features selected for this database come from the accelerometer and gyroscope 3-axial raw signals.(for detailed information, please see ¡®features_info¡¯ file contained in the same directory as ¡®features.txt¡¯ file), and this list of all features will be used as column names of measured data set. 
 
