@@ -68,8 +68,7 @@ There are three groups of files to deal with, quasi "metadata", "train data", an
   3. Now we change the column names of dataset by using feature variables. Having failed after trying several times with original data frame format ¡°features¡±, I used transpose format of the data frame. For the first two variables, I just named them.
 
 
-image
-
+![Data Structure](https://raw.githubusercontent.com/HongcheolKimmy/gettingcleaningdata/master/dataSetimage.png)
 
 
 
